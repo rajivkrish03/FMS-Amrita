@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717107341D642C28004957F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717107331D642C28004957F0 /* AppDelegate.swift */; };
+		717107361D642C28004957F0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717107351D642C28004957F0 /* MasterViewController.swift */; };
+		717107381D642C28004957F0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717107371D642C28004957F0 /* DetailViewController.swift */; };
+		7171073B1D642C28004957F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717107391D642C28004957F0 /* Main.storyboard */; };
+		7171073D1D642C28004957F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7171073C1D642C28004957F0 /* Assets.xcassets */; };
+		717107401D642C28004957F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7171073E1D642C28004957F0 /* LaunchScreen.storyboard */; };
+		7171074B1D642C28004957F0 /* FMS_AmritaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171074A1D642C28004957F0 /* FMS_AmritaTests.swift */; };
+		717107561D642C28004957F0 /* FMS_AmritaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717107551D642C28004957F0 /* FMS_AmritaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717107471D642C28004957F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717107281D642C28004957F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7171072F1D642C28004957F0;
+			remoteInfo = "FMS Amrita";
+		};
+		717107521D642C28004957F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717107281D642C28004957F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7171072F1D642C28004957F0;
+			remoteInfo = "FMS Amrita";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717107301D642C28004957F0 /* FMS Amrita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMS Amrita.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717107331D642C28004957F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717107351D642C28004957F0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		717107371D642C28004957F0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7171073A1D642C28004957F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7171073C1D642C28004957F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7171073F1D642C28004957F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717107411D642C28004957F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717107461D642C28004957F0 /* FMS AmritaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMS AmritaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7171074A1D642C28004957F0 /* FMS_AmritaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMS_AmritaTests.swift; sourceTree = "<group>"; };
+		7171074C1D642C28004957F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717107511D642C28004957F0 /* FMS AmritaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMS AmritaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717107551D642C28004957F0 /* FMS_AmritaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMS_AmritaUITests.swift; sourceTree = "<group>"; };
+		717107571D642C28004957F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7171072D1D642C28004957F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717107431D642C28004957F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7171074E1D642C28004957F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717107271D642C28004957F0 = {
+			isa = PBXGroup;
+			children = (
+				717107321D642C28004957F0 /* FMS Amrita */,
+				717107491D642C28004957F0 /* FMS AmritaTests */,
+				717107541D642C28004957F0 /* FMS AmritaUITests */,
+				717107311D642C28004957F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717107311D642C28004957F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717107301D642C28004957F0 /* FMS Amrita.app */,
+				717107461D642C28004957F0 /* FMS AmritaTests.xctest */,
+				717107511D642C28004957F0 /* FMS AmritaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717107321D642C28004957F0 /* FMS Amrita */ = {
+			isa = PBXGroup;
+			children = (
+				717107331D642C28004957F0 /* AppDelegate.swift */,
+				717107351D642C28004957F0 /* MasterViewController.swift */,
+				717107371D642C28004957F0 /* DetailViewController.swift */,
+				717107391D642C28004957F0 /* Main.storyboard */,
+				7171073C1D642C28004957F0 /* Assets.xcassets */,
+				7171073E1D642C28004957F0 /* LaunchScreen.storyboard */,
+				717107411D642C28004957F0 /* Info.plist */,
+			);
+			path = "FMS Amrita";
+			sourceTree = "<group>";
+		};
+		717107491D642C28004957F0 /* FMS AmritaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7171074A1D642C28004957F0 /* FMS_AmritaTests.swift */,
+				7171074C1D642C28004957F0 /* Info.plist */,
+			);
+			path = "FMS AmritaTests";
+			sourceTree = "<group>";
+		};
+		717107541D642C28004957F0 /* FMS AmritaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				717107551D642C28004957F0 /* FMS_AmritaUITests.swift */,
+				717107571D642C28004957F0 /* Info.plist */,
+			);
+			path = "FMS AmritaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7171072F1D642C28004957F0 /* FMS Amrita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7171075A1D642C28004957F0 /* Build configuration list for PBXNativeTarget "FMS Amrita" */;
+			buildPhases = (
+				7171072C1D642C28004957F0 /* Sources */,
+				7171072D1D642C28004957F0 /* Frameworks */,
+				7171072E1D642C28004957F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMS Amrita";
+			productName = "FMS Amrita";
+			productReference = 717107301D642C28004957F0 /* FMS Amrita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		717107451D642C28004957F0 /* FMS AmritaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7171075D1D642C28004957F0 /* Build configuration list for PBXNativeTarget "FMS AmritaTests" */;
+			buildPhases = (
+				717107421D642C28004957F0 /* Sources */,
+				717107431D642C28004957F0 /* Frameworks */,
+				717107441D642C28004957F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717107481D642C28004957F0 /* PBXTargetDependency */,
+			);
+			name = "FMS AmritaTests";
+			productName = "FMS AmritaTests";
+			productReference = 717107461D642C28004957F0 /* FMS AmritaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		717107501D642C28004957F0 /* FMS AmritaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717107601D642C28004957F0 /* Build configuration list for PBXNativeTarget "FMS AmritaUITests" */;
+			buildPhases = (
+				7171074D1D642C28004957F0 /* Sources */,
+				7171074E1D642C28004957F0 /* Frameworks */,
+				7171074F1D642C28004957F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717107531D642C28004957F0 /* PBXTargetDependency */,
+			);
+			name = "FMS AmritaUITests";
+			productName = "FMS AmritaUITests";
+			productReference = 717107511D642C28004957F0 /* FMS AmritaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717107281D642C28004957F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Amrita;
+				TargetAttributes = {
+					7171072F1D642C28004957F0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					717107451D642C28004957F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7171072F1D642C28004957F0;
+					};
+					717107501D642C28004957F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7171072F1D642C28004957F0;
+					};
+				};
+			};
+			buildConfigurationList = 7171072B1D642C28004957F0 /* Build configuration list for PBXProject "FMS Amrita" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 717107271D642C28004957F0;
+			productRefGroup = 717107311D642C28004957F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7171072F1D642C28004957F0 /* FMS Amrita */,
+				717107451D642C28004957F0 /* FMS AmritaTests */,
+				717107501D642C28004957F0 /* FMS AmritaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7171072E1D642C28004957F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717107401D642C28004957F0 /* LaunchScreen.storyboard in Resources */,
+				7171073D1D642C28004957F0 /* Assets.xcassets in Resources */,
+				7171073B1D642C28004957F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717107441D642C28004957F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7171074F1D642C28004957F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7171072C1D642C28004957F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717107381D642C28004957F0 /* DetailViewController.swift in Sources */,
+				717107361D642C28004957F0 /* MasterViewController.swift in Sources */,
+				717107341D642C28004957F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717107421D642C28004957F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7171074B1D642C28004957F0 /* FMS_AmritaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7171074D1D642C28004957F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717107561D642C28004957F0 /* FMS_AmritaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717107481D642C28004957F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7171072F1D642C28004957F0 /* FMS Amrita */;
+			targetProxy = 717107471D642C28004957F0 /* PBXContainerItemProxy */;
+		};
+		717107531D642C28004957F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7171072F1D642C28004957F0 /* FMS Amrita */;
+			targetProxy = 717107521D642C28004957F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		717107391D642C28004957F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7171073A1D642C28004957F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7171073E1D642C28004957F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7171073F1D642C28004957F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717107581D642C28004957F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		717107591D642C28004957F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7171075B1D642C28004957F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMS Amrita/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amrita.FMS-Amrita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7171075C1D642C28004957F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMS Amrita/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amrita.FMS-Amrita";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7171075E1D642C28004957F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FMS AmritaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amrita.FMS-AmritaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMS Amrita.app/FMS Amrita";
+			};
+			name = Debug;
+		};
+		7171075F1D642C28004957F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "FMS AmritaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amrita.FMS-AmritaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMS Amrita.app/FMS Amrita";
+			};
+			name = Release;
+		};
+		717107611D642C28004957F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FMS AmritaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amrita.FMS-AmritaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FMS Amrita";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		717107621D642C28004957F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FMS AmritaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Amrita.FMS-AmritaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "FMS Amrita";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7171072B1D642C28004957F0 /* Build configuration list for PBXProject "FMS Amrita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717107581D642C28004957F0 /* Debug */,
+				717107591D642C28004957F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7171075A1D642C28004957F0 /* Build configuration list for PBXNativeTarget "FMS Amrita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7171075B1D642C28004957F0 /* Debug */,
+				7171075C1D642C28004957F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7171075D1D642C28004957F0 /* Build configuration list for PBXNativeTarget "FMS AmritaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7171075E1D642C28004957F0 /* Debug */,
+				7171075F1D642C28004957F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		717107601D642C28004957F0 /* Build configuration list for PBXNativeTarget "FMS AmritaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717107611D642C28004957F0 /* Debug */,
+				717107621D642C28004957F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 717107281D642C28004957F0 /* Project object */;
+}
