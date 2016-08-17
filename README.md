@@ -1,7 +1,10 @@
 # FMS-Amrita
 
-### Faculty-Management-System-Web
-Using Ruby on Rails
+### Faculty-Management-System | Web
+Platform -> Ruby on Rails
 
-### Faculty-Management-System-Android
-Android Studio -> Development Platform
+### Faculty-Management-System | Android
+Platform -> Android Studio
+
+### Faculty-Management-System | iOS
+Platform -> Xcode with swift
