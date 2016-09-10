@@ -6,6 +6,13 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.rd {
+	margin: 0;
+	text-align: left;
+	font-size: .1em;
+	color: white;
+}
+
 .one {
 	height: 100vh;
 	width: 100%;
@@ -18,6 +25,10 @@ body {
 
 .three {
 	background-color: #67D5B5;
+}
+
+.four {
+	background-color: #8283a7;
 }
 
 .phone_main {
@@ -111,12 +122,16 @@ body {
 	width: 100%;
 	height: 2em;
 	background-color: #d6ecfa;
+	position: relative;
+	z-index: 0;
 }
 
 .phone_toolbar {
 	width: 100%;
 	height: 4.5em;
 	background-color: #f15c5c;
+	position: relative;
+	z-index: 0;
 }
 
 .title {
@@ -143,4 +158,19 @@ body {
 	position: relative;
 	top: .6em;
 	left: .5em;
+}
+
+.phone_nav {
+	width: 80%;
+	height: 84.4%;
+	float: left;
+	background-color: #d6ecfa;
+	position: relative;
+	z-index: 1;
+}
+
+.phone_header {
+	width: 100%;
+	height: 15em;
+	background-color: #f15c5c;
 }
