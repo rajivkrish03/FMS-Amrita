@@ -6,13 +6,6 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.rd {
-	margin: 0;
-	text-align: left;
-	font-size: .1em;
-	color: white;
-}
-
 .one {
 	height: 100vh;
 	width: 100%;
@@ -29,6 +22,14 @@ body {
 
 .four {
 	background-color: #8283a7;
+}
+
+.five {
+	background-color: #feee7d;
+}
+
+.six {
+	background-color: #f199bc;
 }
 
 .phone_main {
