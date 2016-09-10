@@ -1,0 +1,120 @@
+::-moz-selection {background: grey;}
+
+::selection {background: grey;}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.one {
+	height: 100vh;
+	width: 100%;
+	background-color: #ffc952;
+}
+
+.two {
+	background-color: #47b8e0;
+}
+
+.three {
+	background-color: #67D5B5;
+}
+
+.phone_main {
+	width: 28%;
+	height: 50em;
+	border: .7em solid black;
+	border-radius: 1em;
+	margin: 0 auto;
+	background-color: #f15c5c;
+	box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+	position: relative;
+	top: 4em;
+}
+
+.phone_main_2 {
+	width: 28%;
+	height: 50em;
+	border: .7em solid black;
+	border-radius: 1em;
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+	position: relative;
+	top: 4em;
+}
+
+.phone_tail {
+	width: 100%;
+	height: 5em;
+	background-color: black;
+	position: relative;
+	top: 42.2em;
+}
+
+.phone_tail_2 {
+	width: 100%;
+	height: 5em;
+	background-color: black;
+	position: relative;
+	top: 35.2em;
+}
+
+.phone_circle_tail {
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 26px;
+}
+
+.phone_box_sq {
+	width: 27px;
+	height: 27px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 80%;
+	position: relative;
+	bottom: 3px;
+}
+
+.phone_tail_tri {
+	width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 23px solid white;
+	margin: 0 15%;
+	position: relative;
+	bottom: 30px;
+}
+
+.phone_head {
+	width: 100%;
+	height: 3em;
+	background-color: black;
+}
+
+.phone_circle_head {
+	width: 90px;
+	height: 15px;
+	background-color: white;
+	border-radius: 1em;
+	margin: 0 auto;
+	position: relative;
+	top: 12px;
+}
+
+.phone_status {
+	width: 100%;
+	height: 2em;
+	background-color: #d6ecfa;
+}
+
+.phone_toolbar {
+	width: 100%;
+	height: 5em;
+	background-color: #f15c5c;
+}
