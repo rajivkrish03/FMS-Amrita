@@ -1,9 +1,12 @@
 package com.amrita.fmsamrita;
 
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.NotificationCompat;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -113,6 +116,12 @@ public class Home extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_meetings) {
             Intent intent = new Intent(this, Meetings.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_notification) {
+            Intent intent = new Intent(this, com.amrita.fmsamrita.Notification.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_abouttheapp) {
+            Intent intent = new Intent(this, About.class);
             startActivity(intent);
         } else if (id == R.id.nav_settings) {
 
