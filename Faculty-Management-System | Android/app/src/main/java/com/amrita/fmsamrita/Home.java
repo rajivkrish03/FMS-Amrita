@@ -1,5 +1,6 @@
 package com.amrita.fmsamrita;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+
+import static android.R.attr.button;
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -31,6 +35,36 @@ public class Home extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        Button btn=(Button)findViewById(R.id.button_timetable);
+        btn.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                Intent i = new Intent(getApplicationContext(),TimeTable.class);
+                startActivity(i);
+            }
+        });
+
+        Button btn2=(Button)findViewById(R.id.button_resources);
+        btn2.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                Intent i = new Intent(getApplicationContext(),Resources.class);
+                startActivity(i);
+            }
+        });
+
+        Button btn3=(Button)findViewById(R.id.button_meetings);
+        btn3.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View v)
+            {
+                Intent i = new Intent(getApplicationContext(),Meetings.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override
@@ -72,11 +106,14 @@ public class Home extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_timetable) {
-            // Handle the camera action
+            Intent intent = new Intent(this, TimeTable.class);
+            startActivity(intent);
         } else if (id == R.id.nav_resources) {
-
+            Intent intent = new Intent(this, Resources.class);
+            startActivity(intent);
         } else if (id == R.id.nav_meetings) {
-
+            Intent intent = new Intent(this, Meetings.class);
+            startActivity(intent);
         } else if (id == R.id.nav_settings) {
 
         }
